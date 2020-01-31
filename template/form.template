@@ -1,0 +1,14 @@
+<div class='card m-2 p-2 mx-auto text-center form-group w-50'>
+<form class='p-2' action='resize' method='POST'>
+    <input class='form-control m-1' type='text' name='url' placeholder="Insert image url...">
+    <select class='form-control m-1' name='percent'>
+        <option value="0.50">x0.50</option>
+        <option value="0.25">x0.25</option>
+        <option value="0.10">x0.10</option>
+      </select> 
+    <input class='btn btn-primary w-100 m-1' type='submit' value='Resize'>
+</form>
+</div>
+<div style='text-align:center;'>
+{{imagenes}}
+</div>

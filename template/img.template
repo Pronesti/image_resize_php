@@ -1,0 +1,1 @@
+<a href='/show/{{urlName}}'><img src='/img/{{urlName}}.jpg' style='margin:1rem;'></a>
